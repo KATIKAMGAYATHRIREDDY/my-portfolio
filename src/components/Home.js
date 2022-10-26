@@ -2,11 +2,12 @@ import './home.css';
 import { Link } from "react-router-dom";
 import pbg1 from "../assests/Images/pbg1.png";
 import IconSocial from './IconSocial';
+
 const Home = () => {
   return (
     <div style={{ 
       width: "100%",
-      height: "600px",
+      height: "100%",
       backgroundColor: '#b8f0f2',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'}}>

@@ -1,16 +1,11 @@
 import "./about.css";
 import sealcsd from "../assests/Images/seal-csd.png";
 import aboutImg from "../assests/Images/aboutImg.jpg";
+
 const About = () => {
   return (
-    <div className="a" style={{ 
-      width: "100%",
-      height: "600px",
-      backgroundColor: '#d5f4f5',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'}}>
+    <div className="a">
       <div className="a-left">
-        <div className="a-card bg"></div>
         <div className="a-card">
           <img
             src={aboutImg}
