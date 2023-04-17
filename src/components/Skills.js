@@ -14,7 +14,6 @@ import SoloLearnJS from "../assests/Images/SoloLearnJS.PNG";
 import SoloLearnRWD from "../assests/Images/SoloLearnRWD.PNG";
 import SoloLearnJQuery from "../assests/Images/SoloLearnJQuery.PNG";
 import SoloLearnReact from "../assests/Images/SoloLearnReact.jpg";
-import { Table, TableBody, TableRow } from '@material-ui/core';
 
 export default class Skills extends Component {
   render() {
