@@ -20,6 +20,7 @@ export default class Skills extends Component {
   render() {
     return (
       <div className="s">
+        <div>
        <div className="s-left">
           <div className="s-card">
             <img
@@ -30,7 +31,7 @@ export default class Skills extends Component {
           </div>
           <div className="s-award">
             <h4 className="s-award-title">Java FullStack and Mobile Android Certificate</h4>
-          </div> 
+          </div>
         </div>
         <div className="s-left">
           <div className="s-card">
@@ -56,6 +57,8 @@ export default class Skills extends Component {
             <h4 className="s-award-title">Coursera Python Data Structures Certificate</h4>
           </div> 
         </div>
+        </div>
+        <div>
         <div className="s-left">
           <div className="s-card">
             <img
@@ -92,6 +95,8 @@ export default class Skills extends Component {
             <h4 className="s-award-title">SoloLearn CSS Certificate</h4>
           </div> 
         </div>
+        </div>
+        <div>
         <div className="s-left">
           <div className="s-card">
             <img
@@ -128,6 +133,8 @@ export default class Skills extends Component {
             <h4 className="s-award-title">SoloLearn RWD Certificate</h4>
           </div> 
         </div>
+        </div>
+        <div>
         <div className="s-left">
           <div className="s-card">
             <img
@@ -164,6 +171,8 @@ export default class Skills extends Component {
             <h4 className="s-award-title">Java FullStack and Mobile Android Certificate</h4>
           </div> 
         </div>
+        </div>
+        <div>
         <div className="s-left">
           <div className="s-card">
             <img
@@ -199,6 +208,7 @@ export default class Skills extends Component {
           <div className="s-award">
             <h4 className="s-award-title">DXC Champs Award</h4>
           </div> 
+        </div>
         </div>
       </div>
     )

@@ -1,5 +1,4 @@
 .s {
-    height: 100vh;
     display: flex;
     align-items: center;
     background-color: #d5f4f5;
@@ -18,8 +17,6 @@
   
   .s-right {
     flex: 1;
-    padding-right: 5%;
-    margin-top: -5px;
   }
   
   .s-card {
