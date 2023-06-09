@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
 import "./projects.css";
-import NABaward from "../assests/Images/NABaward.PNG";
+import NABaward from "../../../assests/Images/NABaward.PNG";
 
-export default class Projects extends Component {
-  render() {
+const Projects = () => {
     return (
       <div className="p">
         <div className="p-left">
@@ -33,6 +31,6 @@ export default class Projects extends Component {
           </div>
         </div>
       </div>
-    )
-  }
+  )
 }
+export default Projects;

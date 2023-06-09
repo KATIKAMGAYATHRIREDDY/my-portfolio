@@ -1,0 +1,48 @@
+  .s {
+    background-color: #d5f4f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: outset;
+    border-color: rgb(59, 128, 132);
+    padding-bottom: 70px;
+    border-width: 5pc;
+    margin-bottom: 50px;
+  }
+  
+  .s-img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .s-award-title{
+      font-weight: bold;
+      font-size: 25px;
+      font-family: 'Times New Roman' ;
+      color: rgb(4, 131, 131);
+      
+  }
+  
+  @media screen and (max-width:480px) {
+      .s{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+      }
+  
+      .s-left {
+        width: 100%;
+      }
+  
+      .s-card {
+        height: 30vh;
+      }
+  
+      .s-award {
+        display: none;
+      }
+  
+      .s-right{
+        padding: 20px;
+      }
+  }

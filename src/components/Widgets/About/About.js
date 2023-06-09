@@ -1,6 +1,6 @@
 import "./about.css";
-import sealcsd from "../assests/Images/seal-csd.png";
-import aboutImg from "../assests/Images/aboutImg.jpg";
+import sealcsd from "../../../assests/Images/seal-csd.png";
+import aboutImg from "../../../assests/Images/aboutImg.jpg";
 
 const About = () => {
   return (

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom"
-import Home from "./components/Home"
-import About from "./components/About"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
+import Home from "./components/Widgets/Home/Home"
+import About from "./components/Widgets/About/About"
+import Skills from "./components/Widgets/Skills/Skills"
+import Projects from "./components/Widgets/Projects/Projects"
 
 const App = () =>{
   return (

@@ -1,7 +1,7 @@
 import './home.css';
 import { Link } from "react-router-dom";
-import pbg1 from "../assests/Images/pbg1.png";
-import IconSocial from './IconSocial';
+import pbg1 from "../../../assests/Images/pbg1.png";
+import IconSocial from '../Icon/IconSocial';
 
 const Home = () => {
   return (
