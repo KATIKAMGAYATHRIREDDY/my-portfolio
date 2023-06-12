@@ -1,8 +1,11 @@
 import "./skills.css";
 import { certificates } from "./certificatesData";
+import Header from "../Header";
 
 const Skills = () => {
   return (
+    <>
+    <Header bgColor={'#d5f4f5'}/>
     <div style={{backgroundColor: '#d5f4f5'}}>
         {certificates.map((item, index) =>(
             <div className="s" key={index} >
@@ -21,6 +24,7 @@ const Skills = () => {
             </div>
         ))}
     </div>
+    </>
   )
 }
 

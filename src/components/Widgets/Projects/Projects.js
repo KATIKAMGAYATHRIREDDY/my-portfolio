@@ -1,8 +1,11 @@
 import "./projects.css";
 import NABaward from "../../../assests/Images/NABaward.PNG";
+import Header from '../Header';
 
 const Projects = () => {
     return (
+      <>
+      <Header bgColor={'#d5f4f5'}/>
       <div className="p">
         <div className="p-left">
           <div className="p-card">
@@ -31,6 +34,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      </>
   )
 }
 export default Projects;

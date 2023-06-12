@@ -1,22 +1,20 @@
 import './home.css';
-import { Link } from "react-router-dom";
 import pbg1 from "../../../assests/Images/pbg1.png";
-import IconSocial from '../Icon/IconSocial';
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import Button from '@mui/material/Button';
+import { IconContext } from "react-icons";
+import Header from '../Header';
 
 const Home = () => {
   return (
-    <div style={{ 
-      width: "100%",
-      height: "100%",
-      backgroundColor: '#b8f0f2',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'}}>
+    <>
+      <Header bgColor={'#b8f0f2'}/>
       <div className="i">
         <div className="i-left" >
           <div className="i-left-wrapper">
             <h2 className="i-intro">Hello, Welcome to my world</h2>
             <h1 className="i-name">I am K.Gayathri Reddy</h1>
-            <div className="i-title">
+            <div>
               <div className="i-title-wrapper">
                 <div className="i-title-item">FrontEnd Developer</div>
                 <div className="i-title-item">Web Developer</div>
@@ -28,21 +26,35 @@ const Home = () => {
               specializing in creating stylish, modern websites.
             </p>
             <div>
-              <Link to="about" style={{color:'#0492ac'}}>About</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <Link to="skills" style={{color:'#0492ac'}}>Skills</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <Link to="projects" style={{color:'#0492ac'}}>Projects</Link>
+              <Button href="https://www.linkedin.com/in/katikam-gayathri-reddy-45668b176/" target="_blank" size="large">
+                <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
+                  <div>
+                    <FaLinkedin />
+                  </div>
+                </IconContext.Provider>
+              </Button>
+              <Button href="https://github.com/KATIKAMGAYATHRIREDDY" target="_blank" size="large">
+                <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
+                  <div>
+                    <FaGithub />
+                  </div>
+                </IconContext.Provider>
+              </Button>
+              <Button href="https://www.instagram.com/allornothing773/" target="_blank" size="large">
+                <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
+                  <div>
+                    <FaInstagram />
+                  </div>
+                </IconContext.Provider>
+              </Button>
             </div>
-          <div style={{marginTop:'15px'}}>
-            <IconSocial />
-          </div>
           </div>
         </div>
         <div className="i-right">
-          <div ></div>
           <img src={pbg1} alt="" className="i-img" />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

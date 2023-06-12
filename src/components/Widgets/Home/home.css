@@ -1,23 +1,24 @@
 .i {
     display: flex;
-    height: 100vh;
+    background-color: #b8f0f2;
   }
   
   .i-left {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
   }
   
   .i-right {
-    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 45px;
     position: relative;
   }
   
   .i-left-wrapper {
     padding-left: 90px;
-    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +27,6 @@
   .i-intro {
     font-size: 30px;
     font-weight: 300;
-    margin-top: -55px;
     color: #56b0c2;
   }
   
@@ -36,30 +36,24 @@
     
   }
   
-  .i-title {
-    height: 50px;
-    overflow: hidden;
-  }
-  
   .i-title-wrapper {
-    height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    display:flex;
+    animation: move 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
   }
   
   @keyframes move {
     
     50% {
-      transform: translateY(-60px);
+      transform: translateX(30px);
     }
     100% {
-      transform: translateY(-110px);
+      transform: translateX(10px);
     }
     
     
   }
   
   .i-title-item {
-    height: 50px;
     font-size: 30px;
     font-weight: bold;
     color: #0492ac;
@@ -68,14 +62,11 @@
   }
   
   .i-scroll {
-    width: 30px;
-    height: 30px;
     position: absolute;
     bottom: 20px;
   }
   
   .i-img {
-    margin-top: 75px;
     width: 90%;
     height: 75%;
     margin-left: 41px;
@@ -96,12 +87,20 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      height: 100%;
+     
     }
   
     .i-desc{
       display: none;
       color: #04d2f7;
+    }
+
+    .i-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-top: -90px;
     }
     
   }
