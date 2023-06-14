@@ -4,6 +4,8 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Button from '@mui/material/Button';
 import { IconContext } from "react-icons";
 import Header from '../Header';
+import { RiInstagramFill } from "react-icons/ri";
+
 
 const Home = () => {
   return (
@@ -43,7 +45,7 @@ const Home = () => {
               <Button href="https://www.instagram.com/allornothing773/" target="_blank" size="large">
                 <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
                   <div>
-                    <FaInstagram />
+                    <RiInstagramFill />
                   </div>
                 </IconContext.Provider>
               </Button>

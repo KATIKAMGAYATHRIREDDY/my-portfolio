@@ -6,7 +6,7 @@ import Projects from "./components/Widgets/Projects/Projects"
 
 const App = () =>{
   return (
-      <Routes>
+      <Routes basename="/portfolio">
         <Route path="/" element={ <Home/> } />
         <Route path="/about" element={ <About/> } />
         <Route path="/skills" element={ <Skills/> } />

@@ -1,9 +1,10 @@
 import Button from '@mui/material/Button';
 import { IconContext } from "react-icons";
 import { useNavigate } from 'react-router-dom';
-import { BsFillPersonFill, BsMortarboardFill } from "react-icons/bs";
+import { BsFillPersonFill } from "react-icons/bs";
 import { SiReact} from "react-icons/si";
 import { HiHome } from "react-icons/hi2";
+import { Certificate } from 'grommet-icons';
 
 const Header = ({bgColor}) => {
     let navigate = useNavigate ();
@@ -28,14 +29,10 @@ const Header = ({bgColor}) => {
                     </IconContext.Provider>
                 </Button>
                 <Button onClick={()=>navigate("/skills")}>
-                    <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
-                        <div>
-                            <BsMortarboardFill />
-                        </div>
-                    </IconContext.Provider>
+                    <Certificate size='28.5px' color="#0492ac" />
                 </Button>
                 <Button onClick={()=>navigate("/projects")}>
-                    <IconContext.Provider value={{ color: "#0492ac", size:'1.5em'}}>
+                    <IconContext.Provider value={{ color: "#0492ac", size:'2em'}}>
                         <div>
                             <SiReact />
                         </div>
