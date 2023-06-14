@@ -1,6 +1,6 @@
 import './home.css';
 import pbg1 from "../../../assests/Images/pbg1.png";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Button from '@mui/material/Button';
 import { IconContext } from "react-icons";
 import Header from '../Header';
